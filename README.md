@@ -1,5 +1,4 @@
-# Active-Directory-and-SOC-Automation-Project
-# Active Directory SOC Automation Lab
+# ActivemDirectory and SOC Automation Project
 
 ## Overview
 This project simulates a mini SOC environment on cloud-hosted virtual machines.  
