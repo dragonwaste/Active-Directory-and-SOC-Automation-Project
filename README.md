@@ -12,7 +12,7 @@ It integrates **Active Directory (AD), Splunk Enterprise, and Shuffle SOAR** to 
 ---
 
 ## Architecture Diagram  
-![Workflow Diagram](workflow/workflow-diagram.png)  
+![Workflow Diagram](workflow-diagram.png)  
 
 *Diagram shows the interaction between Active Directory, Splunk, Shuffle SOAR, and alerting channels.*  
 
