@@ -66,7 +66,7 @@ It integrates **Active Directory (AD), Splunk Enterprise, and Shuffle SOAR** to 
 ---
 
 ### 🔹 Discord Alert  
-![Discord Alert](assets/discord-alert.png)  
+![Discord Alert](assets/discord-notification.png)  
 *The SOC team receives a real-time alert message in the dedicated Discord channel. This ensures immediate visibility and collaboration among analysts.*
 
 ---
