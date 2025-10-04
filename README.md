@@ -12,7 +12,7 @@ It integrates **Active Directory (AD), Splunk Enterprise, and Shuffle SOAR** to 
 ---
 
 ## Architecture Diagram  
-![Workflow Diagram](workflow-diagram.png)  
+![Workflow Diagram](assets/workflow-diagram.png)  
 
 *Diagram shows the interaction between Active Directory, Splunk, Shuffle SOAR, and alerting channels.*  
 
@@ -54,9 +54,35 @@ It integrates **Active Directory (AD), Splunk Enterprise, and Shuffle SOAR** to 
 3. Splunk alerts sent to Shuffle SOAR via webhook.  
 4. Shuffle automates:  
    - Sends alert to SOC team via Discord and email.  
-   - Disables offending AD account automatically.  
+   - Disables offending AD account automatically.
+     
+---
+
+### 🔹 Email Notification  
+![Email Notification](assets/email-notification.png) 
+*An automated email notification is sent to the SOC analyst, providing full context of the security event and affected Active Directory account.*
+*You can edit the info in the email to be more readable.*
 
 ---
+
+### 🔹 Discord Alert  
+![Discord Alert](assets/discord-alert.png)  
+*The SOC team receives a real-time alert message in the dedicated Discord channel. This ensures immediate visibility and collaboration among analysts.*
+
+---
+
+### 🔹 Shuffle Workflow Diagram  
+![Shuffle Workflow](assets/shuffle-workflow.png)  
+*Visual representation of the automated security orchestration workflow inside Shuffle SOAR, showing detection → alerting → automated response flow.*
+
+---
+
+### 🔹 Vultr Machines Setup  
+![Vultr Machines](assets/machines.png)  
+*Diagram showing the Vultr instances running your SOC automation environment, including Splunk, Shuffle SOAR, and Active Directory.*
+
+---
+
 
 ## Benefits  
 - Realistic simulation of SOC operations.  
