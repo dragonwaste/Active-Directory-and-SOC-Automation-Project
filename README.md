@@ -58,6 +58,12 @@ It integrates **Active Directory (AD), Splunk Enterprise, and Shuffle SOAR** to 
      
 ---
 
+### 🔹 Splunk Alert Detection  
+![Splunk Alert](assets/splunk-alert.png)  
+*Splunk detects an unauthorized RDP login attempt and triggers a custom alert via webhook to Shuffle SOAR. The alert contains information about the user, source IP, and timestamp of the event.*
+
+---
+
 ### 🔹 Email Notification  
 ![Email Notification](assets/email-notification.png) 
 *An automated email notification is sent to the SOC analyst, providing full context of the security event and affected Active Directory account.*
